@@ -1,5 +1,5 @@
 import React from "react";
-import { render, cleanup } from "@ui-test";
+import { render, cleanup } from "../../test";
 import Button from "./Button";
 
 afterEach(() => {
