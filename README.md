@@ -1,12 +1,14 @@
+This is a react components library
 ## Try me
 
 pending
 
 ## Technologies
 
-📕React
-Yarn
+React
+Emotion
 Typescript
+Yarn
 StoryBook
 Jest
 
