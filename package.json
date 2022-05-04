@@ -13,9 +13,6 @@
     "prepublishOnly": "yarn build && yarn copy-files && cp -r ./build/* .  && rm -rf ./build",
     "revert:bundle": "git clean -fd"
   },
-  "engines": {
-    "yarn": "1.22.4"
-  },
   "module": "./src/index.ts",
   "main": "./src/index.ts",
   "types": "./src/index.d.ts",
