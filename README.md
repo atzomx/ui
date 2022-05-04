@@ -1,14 +1,14 @@
-This is a [React ](https://es.reactjs.org/) project bootstrapped with [`create-react-app`](https://create-react-app.dev/docs/adding-typescript/).
-
+This is a react components library
 ## Try me
 
 pending
 
 ## Technologies
 
-📕React
-Yarn
+React
+Emotion
 Typescript
+Yarn
 StoryBook
 Jest
 
