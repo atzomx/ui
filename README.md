@@ -1,4 +1,3 @@
-This is a react components library
 ## Try me
 
 pending
