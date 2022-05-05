@@ -1,17 +1,14 @@
 {
   "name": "@atzomx/ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "UI Components for React",
   "scripts": {
     "storybook:run": "start-storybook -p 6006",
     "storybook:build": "build-storybook",
     "test": "jest --env=jsdom",
     "copy-files": "node ./scripts/copy-files.js",
-    "build": "yarn clean && tsc -P ./tsconfig.json",
-    "clean": "rimraf build/",
-    "postpublish": "yarn revert:bundle",
-    "prepublishOnly": "yarn build && yarn copy-files && cp -r ./build/* .  && rm -rf ./build",
-    "revert:bundle": "git clean -fd"
+    "build": "tsc -P ./tsconfig.json",
+    "prepublishOnly": "yarn build && yarn copy-files"
   },
   "module": "./src/index.ts",
   "main": "./src/index.ts",
