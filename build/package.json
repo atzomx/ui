@@ -1,0 +1,24 @@
+{
+  "name": "@atzomx/ui",
+  "version": "0.0.1",
+  "description": "UI Components for React",
+  "module": "./index.js",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "repository": "https://github.com/atzomx/ui",
+  "author": "SaulMoreyra",
+  "license": "MIT",
+  "peerDependencies": {
+    "@emotion/react": ">=11.0.0",
+    "@emotion/styled": ">=11.0.0",
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
+  },
+  "dependencies": {},
+  "private": false
+}
