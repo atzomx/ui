@@ -1,7 +1,7 @@
 This is a react components library
 ## Try me
 
-pending
+View in [https://atzomx.github.io/ui/](https://atzomx.github.io/ui/) in your browser
 
 ## Technologies
 
@@ -14,7 +14,7 @@ Jest
 
 ## Deploy
 
-pending
+View in [https://atzomx.github.io/ui/](https://atzomx.github.io/ui/) in your browser
 
 ## Getting Started
 
@@ -23,14 +23,6 @@ Install dependencies:
 ```bash
 yarn install
 ```
-
-Run the development server:
-
-```bash
-yarn start
-```
-
-View in [http://localhost:3000](http://localhost:3000) in your browser
 
 Run the test:
 
