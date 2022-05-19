@@ -10,7 +10,8 @@
     "test": "jest --env=jsdom",
     "copy-files": "node ./scripts/copy-files.js",
     "build": "tsc -P ./tsconfig.json",
-    "prepublishOnly": "yarn build && yarn copy-files"
+    "prepublishOnly": "yarn build && yarn copy-files",
+    "branch-lint": "npx branch-name-lint branch-lint.json"
   },
   "module": "./src/index.ts",
   "main": "./src/index.ts",
