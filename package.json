@@ -10,7 +10,8 @@
     "test": "jest --env=jsdom",
     "copy-files": "node ./scripts/copy-files.js",
     "build": "tsc -P ./tsconfig.json",
-    "prepublishOnly": "yarn build && yarn copy-files"
+    "prepublishOnly": "yarn build && yarn copy-files",
+    "branch-lint": "npx branch-name-lint branch-lint.json"
   },
   "module": "./src/index.ts",
   "main": "./src/index.ts",
@@ -45,7 +46,8 @@
     "@types/react": "18.0.8",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
-    "babel-plugin-module-resolver": "4.1.0",
+    "babel-plugin-module-resolver": "4.1.0", 
+    "branch-name-lint": "2.1.1",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "8.3.0",
@@ -74,5 +76,5 @@
     "@types/react": {
       "optional": true
     }
-  }
+  } 
 }
