@@ -1,8 +1,11 @@
 addReviewers: true
+
 addAssignees: false
+
 reviewers:
   - joseriosjose
   - AndradeRevillaErick
   - SaulMoreyra
   - Deisy-Ignacio
+
 numberOfReviewers: 1
